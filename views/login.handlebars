@@ -1,0 +1,30 @@
+<main class="container join-main">
+    <h3 class="grey-text text-darken-1">Login Form</h3>
+    <blockquote class="grey-text text-darken-1">
+     
+     Please login with your credentials.<br>
+      
+    </blockquote>
+
+      <div class="form-control">
+        <form id="login-form" action="/login" method="POST">
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email-login" name="email" required>
+          </div>
+          
+          <div>
+            <label for="password">Password</label>
+            <input type="password" id="password-login" name="password" required>
+          </div>
+          <button class="waves-effect waves-light btn" type="submit">Login</button>
+        </form>
+        
+        <form action="/register" method="get">
+        <button class="regBtn waves-effect waves-light btn" type="submit">Register</button>
+        </form>
+      </div>
+
+  </main>
+
+<script src="/assets/js/login.js"></script>
